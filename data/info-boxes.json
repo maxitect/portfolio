@@ -1,0 +1,36 @@
+[
+    {
+        "title": "Who I am",
+        "content": [
+            "Hi! I'm Max, a <strong>full stack developer</strong> transitioning from a career in architecture and computational design within the AEC (Architecture, Engineering, and Construction) industry. With a strong background in programming languages like <strong>JavaScript</strong>, <strong>Python</strong> and <strong>C#</strong>, I've specialised in computational design—using algorithmic and rules-based approaches to solve complex building engineering problems. This includes designing automated workflows for multiple projects and creating parametric models to handle intricate geometries.",
+            "I'm eager to combine my experience in computational design and data science with software engineering, and I'm interested in exploring areas like <strong>DevOps</strong>, <strong>machine learning</strong>, and <strong>AI</strong>. I'm excited to create innovative web applications that make a positive impact and look forward to contributing to forward-thinking teams that value collaboration, continuous learning, and making a difference through technology."
+        ]
+    },
+    {
+        "title": "Where I am heading",
+        "content": [
+            "I'm seeking a role as a <strong>full-stack</strong> or <strong>back-end developer</strong> where I can leverage my skills to build useful software that empowers its users. I'm passionate about working for a business or charity that encourages <strong>collaboration</strong> and fosters learning through experimentation and continual development. My aspiration is to contribute to innovative projects that make a positive impact, utilising my background in computational design and data to create solutions that help and uplift people."
+        ]
+    },
+    {
+        "title": "Where I am now",
+        "content": [
+            "Currently, I'm enhancing my skills at the <strong>Founders and Coders</strong> <strong>Software Engineering Bootcamp</strong>, an intensive programme focused on full-stack development. I'm diving deep into technologies like <strong>JavaScript</strong>, <strong>React</strong>, and <strong>Node.js</strong>, and collaborating on team projects that follow Agile methodologies and test-driven development. This experience is the most significant part of my current journey, allowing me to fully embrace a career in tech and pursue my passion for developing tools that help people.",
+            "Independently, I've been working on several projects to enhance my skills and contribute to the developer community. One of my projects, <strong><a href='https://maxitect.github.io/accessible-colour-palette/'>Colarity</a></strong>, is a colour palette generator that ensures WCAG compliance, helping developers create accessible designs quickly. This project allowed me to delve into full-stack development using technologies like <strong>React</strong>, <strong>Node.js</strong>, and <strong>Material UI</strong>. Although not all of these technologies are yet implemented as it is still in progress."
+        ]
+    },
+    {
+        "title": "Where I have been",
+        "content": [
+            "I've collaborated closely with front-end, back-end, and data engineers to develop bespoke applications and workflows that optimise design processes for clients in the AEC industry. My mathematical mindset and passion for problem-solving through mathematics, statistics, and data analytics have driven me to automate workflows and reuse scripts across projects, igniting my interest in software development.",
+            "A notable project, the <strong><a href='https://github.com/fac30/Pro02_Max_Itzi_Josh_Riley'>Reluctant Code Helper Bot</a></strong> is a Discord bot that provides coding assistance in a humorous and sarcastic manner. This project involved integrating multiple APIs, including the <strong>Discord API</strong>, <strong>OpenAI API</strong>, and <strong>GIPHY API</strong>, and implementing unit and end-to-end testing using <strong>Jest</strong>.",
+            "I've also developed <strong><a href='https://facapplicants.github.io/summer2024/users/maxitect/game/index.html'>BL0CKBUSTER</a></strong>, is a responsive Breakout-style game developed using the Canvas API. Through this, I've honed my skills in <strong>JavaScript</strong>, <strong>HTML5 Canvas</strong>, and responsive design principles."
+        ]
+    },
+    {
+        "title": "What I like",
+        "content": [
+            "Outside of my professional pursuits, I am deeply engaged in the tech and creative communities, regularly attending meetups to connect with like-minded individuals and stay abreast of the latest developments. I'm an avid cyclist and enjoy exploring the outdoors through hiking and rock climbing. Sports like golf and tennis keep me active and challenge me physically. In my leisure time, I immerse myself in games, reading, and comics, which stimulate my imagination and provide a creative outlet. I have a passion for the arts, frequently attending theatre productions. Travelling is another significant interest, as it allows me to experience diverse cultures and gain new perspectives."
+        ]
+    }
+]
