@@ -3,6 +3,13 @@
   src: url("../assets/fonts/NectoMono-Regular.woff2") format("woff2");
 }
 
+:root {
+  --main: #A30B37;
+  --secondary: #FCD581;
+  --text-dark: #000;
+  --text-light: #fff;
+}
+
 html, body {
   width: 100%;
   height: 100%;
@@ -22,11 +29,11 @@ p {
 }
 
 a, a:visited {
-  color: white;
+  color: var(--text-light);
 }
 
 a:hover, .flex-image:hover {
-  color: yellow;
+  color: var(--secondary);
 }
 
 svg {
@@ -50,21 +57,21 @@ img {
 }
 
 .logobox-M, .logobox-FF, .logobox-W, .logobox-hidden-M, .logobox-hidden-FF, .logobox-hidden-W {
-  fill: yellow;
+  fill: var(--secondary);
   transition: height 1.5s, fill 0.5s ease;
 }
 
 .logo-FF-wrapper:hover .logobox-FF,
 .logo-M-wrapper:hover .logobox-M,
 .logo-W-wrapper:hover .logobox-W {
-  fill: tomato;
+  fill: var(--main);
 }
 
 .logo-FF-wrapper:hover .logobox-hidden-FF,
 .logo-M-wrapper:hover .logobox-hidden-M,
 .logo-W-wrapper:hover .logobox-hidden-W {
   height: 88px;
-  fill: tomato;
+  fill: var(--main);
 }
 
 .logo-FF-wrapper:hover ~ .logotext-FF,
@@ -73,7 +80,7 @@ img {
 .logo-FF-wrapper:hover .logotext-FF,
 .logo-M-wrapper:hover .logotext-M,
 .logo-W-wrapper:hover .logotext-W {
-  fill: white;
+  fill: var(--text-light);
 }
 
 .flex-container {
@@ -91,13 +98,13 @@ img {
 .flex-item, .flex-image {
   min-width: 300px;
   margin: 5px;
-  color: white;
+  color: var(--text-light);
   flex: 1;
   transition: margin 1s ease;
 }
 
 .flex-item {
-  background: tomato;
+  background: var(--main);
   min-width: 250px;
   padding: 20px;
 }
@@ -124,7 +131,7 @@ img {
   justify-content: left;
   align-items: center;
   display: flex;
-  color: yellow;
+  color: var(--secondary);
   position: absolute;
   top: 0;
   left: 20px;
@@ -132,29 +139,29 @@ img {
   bottom: 0;
   font-size: 5vh;
   opacity: 0%;
-  }
+}
 
-  .flex-image:hover img {
-    opacity: 50%;
-    transition: 1s;
-  }
-  
-  .flex-image:hover .h2-image{
-    color: black;
-    opacity: 100%;
-    transition: 0.5s;
-  }
+.flex-image:hover img {
+  opacity: 50%;
+  transition: 1s;
+}
+
+.flex-image:hover .h2-image{
+  color: black;
+  opacity: 100%;
+  transition: 0.5s;
+}
 
 li {
   margin: 10px;
 }
 
 .logos {
-  fill:#FFFFFF;
+  fill:var(--text-light);
 }
 
 .logos:hover {
-  fill: yellow;
+  fill: var(--secondary);
 }
 
 .logo {
@@ -162,147 +169,6 @@ li {
   height: 40px;
   margin: 12px 8px;
   display: inline-flex;
-}
-
-/* FOR GAME */
-
-.game-canvas {
-  margin: 0;
-  padding: 0;
-  background: tomato;
-  overflow: hidden; /* Hide scrollbars */
-}
-
-button {
-  display: block;
-  margin: 20px auto;
-}
-
-canvas {
-  background: tomato;
-}
-
-h1 {
-  font-size: 14vw;
-  margin: 0 0;
-}
-
-h1, h2, .white-text {
-  color: white;
-}
-
-.start-button, .key-white, .key-yellow {
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: black;
-  border-color: black;
-  border:3px solid;
-  box-shadow: 0 9px black;
-  margin-top: 0;
-}
-
-.start-button {
-  padding: 15px 25px;
-  font-size: 24px;
-  border-radius: 15px;
-}
-
-.key-white, .key-yellow {
-  padding: 10px 20px;
-  font-size: 24px;
-  border-radius: 12px;
-  margin-bottom: 12px;
-}
-
-.start-button, .key-white {
-  background-color: white;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.key-yellow {
-  background-color: yellow;
-  gap: 5px;
-}
-
-.margin-left {
-  margin-left: 50vw;
-}
-
-.margin-right {
-  margin-right: 50vw;
-}
-
-.keyboard {
-  display: flex;
-  justify-content: center;
-}
-
-.start-button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.start-button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.start-button:hover {
-  transition: 0.5s;
-  background-color: yellow;
-}
-
-.start-button:hover span {
-  padding-right: 25px;
-}
-
-.start-button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
-.start-button:active, .key-white:active, .key-yellow:active {
-  box-shadow: 0 5px black;
-  transform: translateY(4px);
-}
-
-.sound {
-  width: 20px;
-  height: 20px;
-  margin: 10px;
-  fill: white;
-  position: absolute;
-  right: 10px;
-  bottom: 10px;
-}
-
-.sound:hover {
-  fill: yellow;
-}
-
-.icon-stroke {
-  stroke:black;
-  stroke-width: 1.5px;
-}
-
-.icon-fill {
-  fill: yellow;
-}
-
-.icon {
-  width: 80px;
-  height: 80px;
-  margin: 5px 20px;
-  display: inline-flex;
-  fill: white;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 

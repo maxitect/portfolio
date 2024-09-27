@@ -1,4 +1,4 @@
-fetchData('info')
+fetchData('info-boxes')
 
 // Loop through the events data
 .then((infos) => {
@@ -23,3 +23,5 @@ fetchData('info')
     container.appendChild(flexItem);
     }
 )});
+
+const container = document.querySelector('.flex-container'); // Select the container div

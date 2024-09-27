@@ -1,4 +1,4 @@
-fetchData('project')
+fetchData('project-boxes')
 
 // Loop through the events data
 .then((projects) => {
