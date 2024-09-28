@@ -101,10 +101,10 @@ img {
   color: var(--text-light);
   flex: 1;
   transition: margin 1s ease;
+  background: var(--main);
 }
 
 .flex-item {
-  background: var(--main);
   min-width: 250px;
   padding: 20px;
 }
@@ -121,17 +121,22 @@ img {
   height: 100%;
   object-fit: cover;
   object-position: center;
+  transition: opacity 1s ease;
 }
 
 .flex-item:hover, .flex-image:hover {
   margin: 0;
 }
 
+.flex-image:hover {
+  background: var(--secondary);
+}
+
 .h2-image {
   justify-content: left;
   align-items: center;
   display: flex;
-  color: var(--secondary);
+  color: var(--text-dark);
   position: absolute;
   top: 0;
   left: 20px;
@@ -139,17 +144,15 @@ img {
   bottom: 0;
   font-size: 5vh;
   opacity: 0%;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .flex-image:hover img {
-  opacity: 50%;
-  transition: 1s;
+  opacity: 40%;
 }
 
 .flex-image:hover .h2-image{
-  color: black;
   opacity: 100%;
-  transition: 0.5s;
 }
 
 li {

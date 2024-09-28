@@ -2,12 +2,12 @@
     {
         "title": "The Brainwave Bureau website",
         "url": "https://fac30.github.io/Pro01_Max_Itzi_Josh_Riley/",
-        "img": "./assets/images/brainwave-bureau.jpg"
+        "img": "./assets/images/brainwave-bureau.png"
     },
     {
         "title": "Stochastic search model data-driven design",
         "url": "https://youtu.be/mXMP6LQ3wAU",
-        "img": "./assets/images/stochastic-search-model.jpg"
+        "img": "./assets/images/stochastic-search-model.png"
     },
     {
         "title": "GLIMPSE sci-fi movie trailer",
@@ -17,7 +17,7 @@
     {
         "title": "[RE]ward app prototype",
         "url": "https://youtu.be/_0hY56IEYnk",
-        "img": "./assets/images/[RE]ward-prototype.jpg"
+        "img": "./assets/images/[RE]ward-prototype.png"
     },
     {
         "title": "Max's Flexy Flex Webbox website",
@@ -27,17 +27,17 @@
     {
         "title": "Reluctant code helper chatbot",
         "url": "https://github.com/fac30/Pro02_Max_Itzi_Josh_Riley",
-        "img": "./assets/images/chatbot.jpg"
+        "img": "./assets/images/chatbot.png"
     },
     {
         "title": "[RE]ward app interface concept",
         "url": "https://youtu.be/OXsBLeu7pFY",
-        "img": "./assets/images/[RE]ward-concept.jpg"
+        "img": "./assets/images/[RE]ward-concept.png"
     },
     {
         "title": "BL0CKBUSTER game",
         "url": "https://facapplicants.github.io/summer2024/users/maxitect/game/index.html",
-        "img": "./assets/images/BL0CKBUSTER.jpg"
+        "img": "./assets/images/BL0CKBUSTER.png"
     },
     {
         "title": "Colarity Accessible Colour Generator",
@@ -47,6 +47,6 @@
     {
         "title": "Urban data-driven extrapolation",
         "url": "https://youtu.be/gmZqfezdu5s",
-        "img": "./assets/images/manchester-extrapolation.jpg"
+        "img": "./assets/images/manchester-extrapolation.png"
     }
 ]
