@@ -2,14 +2,14 @@
     {
         "title": "About Me",
         "content": [
-            "Hi! I'm Max, a <strong>full stack developer</strong> transitioning from a career in architecture and computational design within the AEC (Architecture, Engineering, and Construction) industry. With a strong background in programming languages like <strong>JavaScript/TypeScript</strong>, <strong>Python</strong> and <strong>C#</strong>, I've specialised in computational design—using algorithmic and rules-based approaches to solve complex building engineering problems. This includes designing automated workflows for multiple projects and creating parametric models to handle intricate geometries.",
+            "Hi! I'm Max, a <strong>full-stack developer</strong> transitioning from a career in architecture and computational design within the AEC (Architecture, Engineering, and Construction) industry. With a strong background in programming languages like <strong>JavaScript/TypeScript</strong>, <strong>Python</strong> and <strong>C#</strong>, I've specialised in computational design—using algorithmic and rules-based approaches to solve complex building engineering problems. This includes designing automated workflows for multiple projects and creating parametric models to handle intricate geometries.",
             "I'm eager to combine my experience in computational design and data science with software engineering, and I'm interested in exploring areas like <strong>DevOps</strong>, <strong>machine learning</strong>, and <strong>AI</strong>. I'm excited to create innovative web applications that make a positive impact and look forward to contributing to forward-thinking teams that value collaboration, continuous learning, and making a difference through technology."
         ]
     },
     {
         "title": "On the Lookout For...",
         "content": [
-            "I'm seeking a role as a <strong>full-stack</strong> where I can leverage my skills to build useful software that empowers its users. I'm passionate about working for a business or charity that encourages <strong>collaboration</strong> and fosters learning through experimentation and continual development. My aspiration is to contribute to innovative projects that make a positive impact, utilising my background in computational design and data to create solutions that help and uplift people."
+            "I'm seeking a role as a <strong>full-stack developer</strong> where I can leverage my skills to build useful software that empowers its users. I'm passionate about working for a business or charity that encourages <strong>collaboration</strong> and fosters learning through experimentation and continual development. My aspiration is to contribute to innovative projects that make a positive impact, utilising my background in computational design and data to create solutions that help and uplift people."
         ]
     },
     {
@@ -24,7 +24,7 @@
         "content": [
             "I've collaborated closely with front-end, back-end, and data engineers to develop bespoke applications and workflows that optimise design processes for clients in the AEC industry. My mathematical mindset and passion for problem-solving through mathematics, statistics, and data analytics have driven me to automate workflows and reuse scripts across projects, igniting my interest in software development.",
             "A notable project, the <strong><a href='https://github.com/fac30/Pro02_Max_Itzi_Josh_Riley'>Reluctant Code Helper Bot</a></strong> is a Discord bot that provides coding assistance in a humorous and sarcastic manner. This project involved integrating multiple APIs, including the <strong>Discord API</strong>, <strong>OpenAI API</strong>, and <strong>GIPHY API</strong>, and implementing unit and end-to-end testing.",
-            "I've also developed <strong><a href='https://facapplicants.github.io/summer2024/users/maxitect/game/index.html'>BL0CKBUSTER</a></strong>, is a responsive Breakout-style game developed using the Canvas API. Through this, I've honed my skills in <strong>JavaScript</strong>, <strong>HTML5 Canvas</strong>, and responsive design principles."
+            "I've also developed <strong><a href='https://facapplicants.github.io/summer2024/users/maxitect/game/index.html'>BL0CKBUSTER</a></strong>, a responsive Breakout-style game developed using the Canvas API. Through this, I've honed my skills in <strong>JavaScript</strong>, <strong>HTML5 Canvas</strong>, and responsive design principles."
         ]
     },
     {
