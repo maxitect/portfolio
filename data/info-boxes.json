@@ -9,7 +9,8 @@
     {
         "title": "On the Lookout For...",
         "content": [
-            "I'm seeking a role as a <strong>full-stack developer</strong> where I can leverage my skills to build useful software that empowers its users. I'm passionate about working for a business or charity that encourages <strong>collaboration</strong> and fosters learning through experimentation and continual development. My aspiration is to contribute to innovative projects that make a positive impact, utilising my background in computational design and data to create solutions that help and uplift people."
+            "I'm seeking a role as a <strong>full-stack developer</strong> where I can leverage my skills to build useful software that empowers its users. I'm passionate about working for a business or charity that encourages <strong>collaboration</strong> and fosters learning through experimentation and continual development. My aspiration is to contribute to innovative projects that make a positive impact, utilising my background in computational design and data to create solutions that help and uplift people.",
+            "I am deeply engaged in the tech and creative communities, regularly attending meetups to connect with like-minded individuals and stay abreast of the latest developments. I am always on the lookout for meaningful open-source projects and very active on Github, regularly contributing to projects that have a social purpose or an innovative hook for me to learn something new."
         ]
     },
     {
@@ -23,14 +24,15 @@
         "title": "My Journey So Far",
         "content": [
             "I've collaborated closely with front-end, back-end, and data engineers to develop bespoke applications and workflows that optimise design processes for clients in the AEC industry. My mathematical mindset and passion for problem-solving through mathematics, statistics, and data analytics have driven me to automate workflows and reuse scripts across projects, igniting my interest in software development.",
-            "A notable project, the <strong><a href='https://github.com/fac30/Pro02_Max_Itzi_Josh_Riley'>Reluctant Code Helper Bot</a></strong> is a Discord bot that provides coding assistance in a humorous and sarcastic manner. This project involved integrating multiple APIs, including the <strong>Discord API</strong>, <strong>OpenAI API</strong>, and <strong>GIPHY API</strong>, and implementing unit and end-to-end testing.",
-            "I've also developed <strong><a href='https://facapplicants.github.io/summer2024/users/maxitect/game/index.html'>BL0CKBUSTER</a></strong>, a responsive Breakout-style game developed using the Canvas API. Through this, I've honed my skills in <strong>JavaScript</strong>, <strong>HTML5 Canvas</strong>, and responsive design principles."
+            "A notable project, the <strong><a href='http://moodtimebucket.s3-website.eu-west-2.amazonaws.com/'>Mood Time App</a></strong> is an event-based playlist generator, think of something that happened to you and a music genre to discover a playlist tailored to that event. This project involved integrating multiple APIs (<strong>Spotify API</strong> and <strong>OpenAI API</strong>) to set up a backend API seperate from the React front-end.",
+            "I've also developed <strong><a href='https://facapplicants.github.io/summer2024/users/maxitect/game/index.html'>BL0CKBUSTER</a></strong>, a responsive Breakout-style game developed using the Canvas API. Through this, I developed my skills in <strong>JavaScript</strong>, using mathematical formulas to set up game mechanics, <strong>HTML5 Canvas</strong>, and responsive design principles.",
+            "Scroll down to see more projects..."
         ]
     },
     {
         "title": "When I'm Off the Clock",
         "content": [
-            "Outside of my professional pursuits, I am deeply engaged in the tech and creative communities, regularly attending meetups to connect with like-minded individuals and stay abreast of the latest developments. I'm an avid cyclist and enjoy exploring the outdoors through hiking and rock climbing. Sports like golf and tennis keep me active. In my leisure time, I enjoy games with friends, reading, comics, novels and listening to music. I am often attending theatre productions, art shows and exhibitions. I love to travel, having been to 37 countries across all continents but Australia. Experiencing diverse cultures and exploring wildlife around the world has shaped me and continues to provide me with fresh perspectives."
+            "Outside of my professional pursuits, I'm an avid cyclist and enjoy exploring the outdoors through hiking and rock climbing. Sports like golf and tennis keep me active. In my leisure time, I enjoy games with friends, reading, comics, novels and listening to music. I am often attending theatre productions, art shows and exhibitions. I love to travel, having been to 37 countries across all continents but Australia. Experiencing diverse cultures and exploring wildlife around the world has shaped me and continues to provide me with fresh perspectives."
         ]
     }
 ]
