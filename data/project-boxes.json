@@ -25,11 +25,6 @@
     "img": "./assets/images/[RE]ward-prototype.png"
   },
   {
-    "title": "Max's Flexy Flex Webbox website",
-    "url": "https://facapplicants.github.io/summer2024/users/maxitect/",
-    "img": "./assets/images/maxs-flexy-flex-webbox.jpg"
-  },
-  {
     "title": "Mood Time mobile-first application",
     "url": "http://moodtimebucket.s3-website.eu-west-2.amazonaws.com/",
     "img": "./assets/images/mood-time.png"
