@@ -5,6 +5,16 @@
     "img": "./assets/images/wedgy.jpg"
   },
   {
+    "title": "Font Hill Records full stack e-commerce website",
+    "url": "http://fonthillrecords.s3-website.eu-west-2.amazonaws.com/",
+    "img": "./assets/images/fhr.jpg"
+  },
+  {
+    "title": "Viatora Digital agency website",
+    "url": "https://viatora.co.uk/",
+    "img": "./assets/images/viatora.jpg"
+  },
+  {
     "title": "The Brainwave Bureau website",
     "url": "https://fac30.github.io/Pro01_Max_Itzi_Josh_Riley/",
     "img": "./assets/images/brainwave-bureau.png"
@@ -30,6 +40,11 @@
     "img": "./assets/images/mood-time.png"
   },
   {
+    "title": "Colarity Accessible Colour Generator",
+    "url": "https://maxitect.github.io/accessible-colour-palette/",
+    "img": "./assets/images/colarity.jpg"
+  },
+  {
     "title": "Reluctant code helper chatbot",
     "url": "https://github.com/fac30/Pro02_Max_Itzi_Josh_Riley",
     "img": "./assets/images/chatbot.png"
@@ -43,11 +58,6 @@
     "title": "BL0CKBUSTER game",
     "url": "https://facapplicants.github.io/summer2024/users/maxitect/game/index.html",
     "img": "./assets/images/BL0CKBUSTER.png"
-  },
-  {
-    "title": "Colarity Accessible Colour Generator",
-    "url": "https://maxitect.github.io/accessible-colour-palette/",
-    "img": "./assets/images/colarity.jpg"
   },
   {
     "title": "Urban data-driven extrapolation",
