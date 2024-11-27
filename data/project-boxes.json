@@ -25,6 +25,11 @@
     "img": "./assets/images/stochastic-search-model.png"
   },
   {
+    "title": "PokéLike website full-stack",
+    "url": "http://pokelike.s3-website.eu-west-2.amazonaws.com/pok%C3%A9mon",
+    "img": "./assets/images/pokelike.jpg"
+  },
+  {
     "title": "GLIMPSE sci-fi movie trailer",
     "url": "https://youtu.be/X-h9HAxvSpw",
     "img": "./assets/images/scifi-movie-trailer.jpg"
