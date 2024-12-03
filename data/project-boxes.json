@@ -1,7 +1,17 @@
 [
   {
+    "title": "Clark's Bowling Club website",
+    "url": "https://clarksbowlingclub.netlify.app/",
+    "img": "./assets/images/clarks.jpg"
+  },
+  {
+    "title": "Ask the Muses AI writing assistant",
+    "url": "https://ask-the-muses.netlify.app/",
+    "img": "./assets/images/ask-the-muses.png"
+  },
+  {
     "title": "Wedgy Music website",
-    "url": "https://wedgy.netlify.app/",
+    "url": "https://wedgymusic.co.uk/",
     "img": "./assets/images/wedgy.jpg"
   },
   {
