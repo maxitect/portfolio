@@ -1,78 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Max's Flexy Flex Webbox</title>
-        <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.svg">
-        <link href="./css/styles.css" rel="stylesheet"/>
-        <script src="./js/fetchData.js" type="text/javascript"></script>
-        <script src="./js/setColourScheme.js" type="text/javascript"></script>
-        <script src="./js/generateBoxes.js" type="text/javascript" defer></script>
-        <script src="./js/logoButton.js" type="text/javascript" defer></script>
-    </head>
-    <body>
-        <header>
-            <svg viewBox="0 0 800 440" class="logo-website" id="logo-reset-button" tabindex="0" role="button" aria-label="Reset color scheme" style="cursor: pointer;">
-                <title>Max's Flexy Flex Webbox Logo</title>
-                <text font-size="0">
-                An interactive logo for the webpage called Max's Flexy Flex Webbox,
-                hover over to interact.
-                </text>
-                <g class="logo-FF-wrapper">
-                <rect x="225" y="2.5" class="logobox-FF" width="350" height="350" />
-                <path class="logotext-FF" d="M264.4,284.62v-210H388L264.4,284.62z" />
-                <path class="logotext-FF" d="M422.2,284.62v-210h123.6L422.2,284.62z" />
-                <rect x="225" y="352.26" class="logobox-hidden-FF" width="350" height="0" />
-                </g>
-                <g class="logo-M-wrapper">
-                <rect y="77.5" class="logobox-M" width="200" height="200" />
-                <path class="logotext-M" d="M43,247.99v-140l56,132.4l56-131.8v139.4H43z" />
-                <rect y="275" class="logobox-hidden-M" width="200" height="0" />
-                </g>
-                <g class="logo-W-wrapper">
-                <rect x="600" y="77.5" class="logobox-W" width="200" height="200" />
-                <path class="logotext-W" d="M775,107.99l-35,140l-39.6-135.8L661,247.99l-36-140H775z" />
-                <rect x="600" y="275" class="logobox-hidden-W" width="200" height="0" />
-                </g>
-                <text transform="matrix(1 0 0 1 26.8019 337.2603)" class="logotext-M">
-                Max’s
-                </text>
-                <text transform="matrix(1 0 0 1 253.6036 417.128)" class="logotext-FF">
-                Flexy Flex
-                </text>
-                <text transform="matrix(1 0 0 1 612.1622 337.7397)" class="logotext-W">
-                Webbox
-                </text>
-            </svg>
-            <p class="central">Hi! Welcome to my website, I made it to <strong>flex</strong> my skills and showcase what I've been up to.</p>
-            <p class="central">Don't like the colour scheme? Try clicking on the website logo above or simply hit 'c'.</p>
-        </header>
-        <div class="flex-container">
-        <!-- Info and Projects Inserted Here -->
-        </div>
-        <div class="flex-container">
-            <div class="flex-item">
-                <h2>Where to find me</h2>
-                <div class="logo">
-                    <a href="https://www.linkedin.com/in/maxime-downe-642ba74b">
-                        <svg xmlns="http://www.w3.org/2000/svg">
-                            <title>Linkedin Logo</title>
-                            <text font-size="0">Interactive Linkedin logo, hover over to interact, click to go to Maxime Downe's Linkedin profile.</text>
-                            <path class="logos" d="M0,3.58C0,1.6,1.65,0,3.69,0h42.61C48.35,0,50,1.6,50,3.58v42.84C50,48.4,48.35,50,46.31,50H3.69
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Max's Flexy Flex Webbox</title>
+    <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.svg" />
+    <link href="./css/styles.css" rel="stylesheet" />
+    <script src="./js/fetchData.js" type="text/javascript"></script>
+    <script src="./js/setColourScheme.js" type="text/javascript"></script>
+    <script src="./js/generateBoxes.js" type="text/javascript" defer></script>
+    <script src="./js/logoButton.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <header>
+      <svg
+        viewBox="0 0 800 440"
+        class="logo-website"
+        id="logo-reset-button"
+        tabindex="0"
+        role="button"
+        aria-label="Reset color scheme"
+        style="cursor: pointer"
+      >
+        <title>Max's Flexy Flex Webbox Logo</title>
+        <text font-size="0">
+          An interactive logo for the webpage called Max's Flexy Flex Webbox,
+          hover over to interact.
+        </text>
+        <g class="logo-FF-wrapper">
+          <rect x="225" y="2.5" class="logobox-FF" width="350" height="350" />
+          <path class="logotext-FF" d="M264.4,284.62v-210H388L264.4,284.62z" />
+          <path
+            class="logotext-FF"
+            d="M422.2,284.62v-210h123.6L422.2,284.62z"
+          />
+          <rect
+            x="225"
+            y="352.26"
+            class="logobox-hidden-FF"
+            width="350"
+            height="0"
+          />
+        </g>
+        <g class="logo-M-wrapper">
+          <rect y="77.5" class="logobox-M" width="200" height="200" />
+          <path
+            class="logotext-M"
+            d="M43,247.99v-140l56,132.4l56-131.8v139.4H43z"
+          />
+          <rect y="275" class="logobox-hidden-M" width="200" height="0" />
+        </g>
+        <g class="logo-W-wrapper">
+          <rect x="600" y="77.5" class="logobox-W" width="200" height="200" />
+          <path
+            class="logotext-W"
+            d="M775,107.99l-35,140l-39.6-135.8L661,247.99l-36-140H775z"
+          />
+          <rect
+            x="600"
+            y="275"
+            class="logobox-hidden-W"
+            width="200"
+            height="0"
+          />
+        </g>
+        <text transform="matrix(1 0 0 1 26.8019 337.2603)" class="logotext-M">
+          Max’s
+        </text>
+        <text transform="matrix(1 0 0 1 253.6036 417.128)" class="logotext-FF">
+          Flexy Flex
+        </text>
+        <text transform="matrix(1 0 0 1 612.1622 337.7397)" class="logotext-W">
+          Webbox
+        </text>
+      </svg>
+      <p class="central">
+        Hi! Welcome to my website, I made it to <strong>flex</strong> my skills
+        and showcase what I've been up to.
+      </p>
+      <p class="central">
+        Don't like the colour scheme? Try clicking on the website logo above or
+        simply hit 'c'.
+      </p>
+    </header>
+    <div class="flex-container">
+      <!-- Info and Projects Inserted Here -->
+    </div>
+    <div class="flex-container">
+      <div class="flex-item">
+        <h2>Where to find me</h2>
+        <div class="logo">
+          <a
+            href="https://www.linkedin.com/in/maxime-downe-642ba74b"
+            target="blank"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <title>Linkedin Logo</title>
+              <path
+                class="logos"
+                d="M0,3.58C0,1.6,1.65,0,3.69,0h42.61C48.35,0,50,1.6,50,3.58v42.84C50,48.4,48.35,50,46.31,50H3.69
                             C1.65,50,0,48.4,0,46.42V3.58z M15.16,41.86V19.28H7.6v22.58H15.16z M11.38,16.19c2.63,0,4.27-1.73,4.27-3.9
                             c-0.05-2.22-1.64-3.9-4.22-3.9c-2.58,0-4.27,1.69-4.27,3.9c0,2.17,1.64,3.9,4.17,3.9H11.38L11.38,16.19z M19.34,41.86h7.55V29.25
                             c0-0.67,0.05-1.35,0.25-1.83c0.55-1.35,1.79-2.74,3.87-2.74c2.73,0,3.83,2.07,3.83,5.11v12.08h7.55V28.91
-                            c0-6.93-3.73-10.16-8.69-10.16c-4.07,0-5.86,2.26-6.86,3.8h0.05v-3.27h-7.55C19.43,21.4,19.34,41.86,19.34,41.86L19.34,41.86z"/>
-                        </svg>
-                    </a>
-                </div>
-                <div class="logo">
-                    <a href="https://www.codewars.com/users/maxitect">
-                        <svg xmlns="http://www.w3.org/2000/svg">
-                            <title>Codewars Logo</title>
-                            <text font-size="0">Interactive Codewars logo, hover over to interact, click to go to maxitect's Codewars profile.</text>
-                            <path class="logos" d="M48.63,28.23c0.31-0.2,0.57-0.47,0.77-0.78c0.83-1.27,0.49-2.98-0.77-3.82c-0.25-0.19-0.54-0.33-0.85-0.39
+                            c0-6.93-3.73-10.16-8.69-10.16c-4.07,0-5.86,2.26-6.86,3.8h0.05v-3.27h-7.55C19.43,21.4,19.34,41.86,19.34,41.86L19.34,41.86z"
+              />
+            </svg>
+          </a>
+        </div>
+        <div class="logo">
+          <a href="https://www.codewars.com/users/maxitect" target="blank">
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <title>Codewars Logo</title>
+              <path
+                class="logos"
+                d="M48.63,28.23c0.31-0.2,0.57-0.47,0.77-0.78c0.83-1.27,0.49-2.98-0.77-3.82c-0.25-0.19-0.54-0.33-0.85-0.39
                             c0.25-0.34,0.43-0.72,0.53-1.13c0.45-1.77-0.61-3.57-2.36-4.03c0.39-0.71,0.18-1.6-0.47-2.07c0.75-0.59,1-1.62,0.6-2.49
                             c-0.22-0.39-0.6-0.73-1.07-0.9c0.31-0.46,0.45-1.02,0.39-1.58c-0.15-1.25-1.28-2.15-2.52-1.99c0.18-0.55,0.15-1.15-0.07-1.69
                             c-0.51-1.25-1.93-1.85-3.16-1.33c-0.02-0.75-0.33-1.46-0.88-1.97c-1.11-1.03-2.83-0.96-3.85,0.16c-0.68-1.59-2.46-2.42-4.16-1.76
@@ -135,51 +176,58 @@
                             l-0.43,0.13c-0.17-0.51-0.45-0.98-0.81-1.38c0.21-0.2,0.33-0.47,0.33-0.76c0.71,0.23,1.48-0.06,1.87-0.7
                             c0.17-0.25,0.3-0.6,0.3-0.95c0.79,0.25,1.64-0.07,2.09-0.77l0.15-0.33c0.05,0.05,0.11,0.09,0.17,0.14c1,0.75,2.42,0.53,3.16-0.48
                             c0.76,0.95,2.08,1.22,3.14,0.64c0.48,1.27,1.8,2,3.11,1.72c-0.09,1.12,0.39,2.2,1.27,2.88h0.05c0.49,0.38,1.08,0.59,1.7,0.61
-                            c-0.68,1.24-0.31,2.8,0.85,3.6C45.54,28.22,45.43,28.32,45.33,28.42z"/>
-                        </svg>
-                    </a>
-                </div>
-                <div class="logo">
-                    <a href="https://github.com/maxitect">
-                        <svg xmlns="http://www.w3.org/2000/svg">
-                            <title>Github Logo</title>
-                            <text font-size="0">Interactive Github logo, hover over to interact, click to go to maxitect's Github profile.</text>
-                            <path class="logos" d="M25.02,0.42C11.18,0.42,0,11.68,0,25.62C0,36.77,7.17,46.2,17.11,49.54c1.24,0.25,1.7-0.54,1.7-1.21
+                            c-0.68,1.24-0.31,2.8,0.85,3.6C45.54,28.22,45.43,28.32,45.33,28.42z"
+              />
+            </svg>
+          </a>
+        </div>
+        <div class="logo">
+          <a href="https://github.com/maxitect" target="blank">
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <title>Github Logo</title>
+              <path
+                class="logos"
+                d="M25.02,0.42C11.18,0.42,0,11.68,0,25.62C0,36.77,7.17,46.2,17.11,49.54c1.24,0.25,1.7-0.54,1.7-1.21
                             c0-0.58-0.04-2.59-0.04-4.67c-6.96,1.5-8.41-3-8.41-3c-1.12-2.92-2.78-3.67-2.78-3.67c-2.28-1.54,0.17-1.54,0.17-1.54
                             c2.53,0.17,3.85,2.59,3.85,2.59c2.24,3.84,5.84,2.75,7.29,2.09c0.21-1.63,0.87-2.75,1.57-3.38c-5.55-0.58-11.39-2.75-11.39-12.44
                             c0-2.75,0.99-5.01,2.57-6.76c-0.25-0.63-1.12-3.21,0.25-6.68c0,0,2.11-0.67,6.88,2.59c2.04-0.55,4.14-0.83,6.26-0.83
                             c2.11,0,4.27,0.29,6.25,0.83c4.76-3.26,6.88-2.59,6.88-2.59c1.37,3.46,0.5,6.05,0.25,6.68c1.62,1.75,2.57,4.01,2.57,6.76
                             c0,9.68-5.84,11.81-11.43,12.44c0.91,0.79,1.7,2.29,1.7,4.67c0,3.38-0.04,6.09-0.04,6.93c0,0.67,0.46,1.46,1.7,1.21
-                            C42.83,46.2,50,36.77,50,25.62C50.04,11.68,38.81,0.42,25.02,0.42z"/>
-                        </svg>
-                    </a>
-                </div>
-                <div class="logo">
-                    <a href="https://www.facebook.com/max.downe">
-                        <svg xmlns="http://www.w3.org/2000/svg">
-                            <title>Facebook Logo</title>
-                            <text font-size="0">Interactive Facebook logo, hover over to interact, click to go to Maxime Downe's Facebook profile.</text>
-                            <path class="logos" d="M25,0C11.19,0,0,11.19,0,25c0,12.45,9.1,22.76,21,24.68V32.12h-6.25v-7H21v-5.5c0-6.25,4-9.75,9.75-9.75
-                            c1.75,0,3.75,0.25,5.5,0.5v6.38H33c-3,0-3.75,1.5-3.75,3.5v4.88h6.62l-1.12,7h-5.5v17.51C41.03,47.61,50,37.36,50,25
-                            C50,11.19,38.81,0,25,0z"/>
-                        </svg>
-                    </a>
-                </div>
-                <div class="logo">
-                    <a href="https://x.com/MaxDowne">
-                        <svg xmlns="http://www.w3.org/2000/svg">
-                            <title>X Logo</title>
-                            <text font-size="0">Interactive X logo, hover over to interact, click to go to Maxime Downe's X profile.</text>
-                            <path class="logos" d="M29.65,21.17L47.87,0h-4.32L27.74,18.38L15.11,0H0.54l19.1,27.8L0.54,50h4.32l16.7-19.41L34.89,50h14.57
-	                        L29.65,21.17L29.65,21.17z M23.74,28.04l-1.94-2.77L6.41,3.25h6.63l12.43,17.78l1.94,2.77L43.55,46.9h-6.63L23.74,28.04L23.74,28.04z"/>
-                        </svg>
-                    </a>
-                </div>
-            </div>
+                            C42.83,46.2,50,36.77,50,25.62C50.04,11.68,38.81,0.42,25.02,0.42z"
+              />
+            </svg>
+          </a>
         </div>
-        <!-- Footer -->
+        <div class="logo">
+          <a href="https://www.facebook.com/max.downe" target="blank">
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <title>Facebook Logo</title>
+              <path
+                class="logos"
+                d="M25,0C11.19,0,0,11.19,0,25c0,12.45,9.1,22.76,21,24.68V32.12h-6.25v-7H21v-5.5c0-6.25,4-9.75,9.75-9.75
+                            c1.75,0,3.75,0.25,5.5,0.5v6.38H33c-3,0-3.75,1.5-3.75,3.5v4.88h6.62l-1.12,7h-5.5v17.51C41.03,47.61,50,37.36,50,25
+                            C50,11.19,38.81,0,25,0z"
+              />
+            </svg>
+          </a>
+        </div>
+        <div class="logo">
+          <a href="https://x.com/MaxDowne" target="blank">
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <title>X Logo</title>
+              <path
+                class="logos"
+                d="M29.65,21.17L47.87,0h-4.32L27.74,18.38L15.11,0H0.54l19.1,27.8L0.54,50h4.32l16.7-19.41L34.89,50h14.57
+                              L29.65,21.17L29.65,21.17z M23.74,28.04l-1.94-2.77L6.41,3.25h6.63l12.43,17.78l1.94,2.77L43.55,46.9h-6.63L23.74,28.04L23.74,28.04z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
     <footer>
-        <p class="central">&copy; 2024 Maxime Downe. All rights reserved.</p>
+      <p class="central">&copy; 2025 Maxime Downe. All rights reserved.</p>
     </footer>
-    </body>
+  </body>
 </html>
