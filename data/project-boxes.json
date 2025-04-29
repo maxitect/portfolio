@@ -1,12 +1,12 @@
 [
   {
     "title": "Clark's Bowling Club website",
-    "url": "https://clarksbowlingclub.netlify.app/",
+    "url": "https://clarksbowlingclub.com/",
     "img": "./assets/images/clarks.jpg"
   },
   {
     "title": "Ask the Muses AI writing assistant",
-    "url": "https://ask-the-muses.netlify.app/",
+    "url": "https://ask-the-muses.vercel.app/",
     "img": "./assets/images/ask-the-muses.png"
   },
   {
