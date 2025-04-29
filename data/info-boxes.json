@@ -2,37 +2,27 @@
   {
     "title": "About Me",
     "content": [
-      "Hi! I'm Max, a <strong>full-stack developer</strong> transitioning from a career in architecture and computational design within the AEC (Architecture, Engineering, and Construction) industry. With a strong background in programming languages like <strong>JavaScript/TypeScript</strong>, <strong>Python</strong> and <strong>C#</strong>, I've specialised in computational design—using algorithmic and rules-based approaches to solve complex building engineering problems. This includes designing automated workflows for multiple projects and creating parametric models to handle intricate geometries.",
-      "I'm eager to combine my experience in computational design and data science with software engineering, and I'm interested in exploring areas like <strong>DevOps</strong>, <strong>machine learning</strong>, and <strong>AI</strong>. I'm excited to create innovative web applications that make a positive impact and look forward to contributing to forward-thinking teams that value collaboration, continuous learning, and making a difference through technology."
+      "Hi! I'm Max, a <strong>full-stack developer</strong> and <strong>co-founder of <a href='https://runintandem.com/' target='blank'>Tandem Creative Dev</a></strong>, having transitioned from a career in computational design within the AEC industry. With deep experience in <strong>TypeScript</strong>, <strong>Python</strong>, <strong>React</strong>, and <strong>machine learning</strong>, I've spent years developing automated workflows and design tools that have dramatically increased efficiency in infrastructure projects. My unique background combines architectural thinking with software engineering—using algorithmic and rules-based approaches to solve complex problems."
     ]
   },
   {
-    "title": "On the Lookout For...",
+    "title": "Machine Learning Journey",
     "content": [
-      "I'm seeking a role as a <strong>full-stack developer</strong> where I can leverage my skills to build useful software that empowers its users. I'm passionate about working for a business or charity that encourages <strong>collaboration</strong> and fosters learning through experimentation and continual development. My aspiration is to contribute to innovative projects that make a positive impact, utilising my background in computational design and data to create solutions that help and uplift people.",
-      "I am deeply engaged in the tech and creative communities, regularly attending meetups to connect with like-minded individuals and stay abreast of the latest developments. I am always on the lookout for meaningful open-source projects and very active on Github, regularly contributing to projects that have a social purpose or an innovative hook for me to learn something new."
-    ]
-  },
-  {
-    "title": "Currently Exploring",
-    "content": [
-      "I'm enhancing my skills at the <strong>Founders and Coders</strong> <strong>Software Engineering Bootcamp</strong>, an intensive programme focused on full-stack development. I'm diving deep into technologies like <strong>JavaScript</strong>, <strong>React</strong>, and <strong>Node.js</strong>, and collaborating on team projects that follow Agile methodologies and test-driven development. This experience is the most significant part of my current journey, allowing me to fully embrace a career in tech and pursue my passion for developing tools that help people.",
-      "Independently, I've been working on several projects to enhance my skills and contribute to the developer community. One of my projects, <strong><a href='https://maxitect.github.io/accessible-colour-palette/'>Colarity</a></strong>, is a colour palette generator that ensures WCAG compliance, helping developers create accessible designs quickly. This project is allowing me to delve into full-stack development using technologies like <strong>React</strong>, <strong>Node.js</strong>, and <strong>Material UI</strong>. Although this is still work in progress with a purely functional UI at the moment."
-    ]
-  },
-  {
-    "title": "My Journey So Far",
-    "content": [
-      "I've co-founded a web development agency called <strong><a href='https://www.viatora.co.uk/'>Viatora Digital</a></strong>, where I've been creating and implementing projects for clients in the music and arts sector utilising Vite, React, and Typescript. I have been overseeing complete project lifecycle, consistently achieving early delivery milestones, utilising Agile methodologies.",
-      "I've collaborated closely with front-end, back-end, and data engineers to develop bespoke applications and workflows that optimise design processes for clients in the AEC industry. My mathematical mindset and passion for problem-solving through mathematics, statistics, and data analytics have driven me to automate workflows and reuse scripts across projects, igniting my interest in software development.",
-      "A notable project, the <strong><a href='http://moodtimebucket.s3-website.eu-west-2.amazonaws.com/'>Mood Time App</a></strong> is an event-based playlist generator, think of something that happened to you and a music genre to discover a playlist tailored to that event. This project involved integrating multiple APIs (<strong>Spotify API</strong> and <strong>OpenAI API</strong>) to set up a backend API seperate from the React front-end.",
-      "Scroll down to see more projects..."
+      "I'm currently immersed in an <strong>Applied Machine Learning Bootcamp</strong> at <strong>MLX</strong>, where I'm implementing neural networks, search systems and predictive models using state-of-the-art architectures. The contrast between traditional software engineering discipline and data science approaches has been fascinatingly stark—I've found myself needing to adapt from robust, defensive coding to a leaner, more exploratory style that prioritises concept understanding over architectural patterns.",
+      "Read about my experience on my <strong><a href='https://maxitect.blog/' target='blank'>blog</a></strong>."
     ]
   },
   {
     "title": "When I'm Off the Clock",
     "content": [
       "Outside of my professional pursuits, I'm an avid cyclist and enjoy exploring the outdoors through hiking and rock climbing. Sports like golf and tennis keep me active. In my leisure time, I enjoy games with friends, reading, comics, novels and listening to music. I am often attending theatre productions, art shows and exhibitions. I love to travel, having been to 37 countries across all continents but Australia. Experiencing diverse cultures and exploring wildlife around the world has shaped me and continues to provide me with fresh perspectives."
+    ]
+  },
+  {
+    "title": "Recent Projects",
+    "content": [
+      "<strong><a href='https://things-we-do.netlify.app/' target='blank'>Things We Do</a></strong> is a mobile app I built providing therapy and symptom-relief for users suffering from behaviour control conditions. It features a robust PWA infrastructure and leverages <strong>TypeScript</strong>, <strong>Next.js 15</strong>, <strong>React</strong>, <strong>Plotly.js</strong>, and <strong>Three.js</strong> on the frontend, with <strong>RxDB</strong> and <strong>IndexedDB</strong> handling data persistence. The app demonstrates my focus on creating solutions that genuinely help people.",
+      "<strong><a href='https://clarksbowlingclub.netlify.app/' target='blank'>Clarks Bowling Club</a></strong> and <strong><a href='http://fonthillrecords.s3-website.eu-west-2.amazonaws.com/' target='blank'>Font Hill Records</a></strong> showcase my full-stack capabilities—building everything from interactive UIs with <strong>React</strong> and <strong>Tailwind</strong> to implementing robust backends with <strong>Node.js</strong>, <strong>PostgreSQL</strong>, and <strong>AWS</strong>."
     ]
   }
 ]
